@@ -5,6 +5,7 @@
 	border-radius: 5px;
 	cursor: pointer;
 	transition: .1s;
+	text-align: center;
 }
 
 .button:hover {
