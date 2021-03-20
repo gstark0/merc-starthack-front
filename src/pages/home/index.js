@@ -11,7 +11,7 @@ export class home extends Component {
 				<div className='main-text'>
 					DISCOVER THE <span className='highlight'>NEW REALITY</span>
 				</div>
-				<Link style={{marginTop: 40}}><img src={faceIcon} id='face-icon' /></Link>
+				<Link to={'/login'} style={{marginTop: 40}}><img src={faceIcon} id='face-icon' /></Link>
 			</Background>
 		)
 	}
